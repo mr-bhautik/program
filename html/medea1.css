@@ -1,0 +1,17 @@
+@media screen and (max-width:800px){
+	.sidenav{
+		display: none;
+	}
+	.header{
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	.header2{
+		height: 4vh;
+	}
+	.footer{
+		height: 30vh;
+	}
+	.footer div{
+		width: 50%;
+	}
+}

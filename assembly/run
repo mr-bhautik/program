@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+import os
+import sys
+filename = sys.argv[1]
+nasm = 'nasm -felf64 {} -o output.o'.format(filename)
+ld= 'ld output.o -o a.out'
+os.system(nasm)
+os.system(ld)
+os.system('./a.out')
+os.system('rm a.out output.o')
